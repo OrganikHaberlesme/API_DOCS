@@ -1,0 +1,26 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ORGANIK API",
+    "version": "v1.0",
+    "description": "ORGANIK API'yi kullanmak veya görüşlerinizi bizimle paylaşmak isterseniz lütfen bizimle info@organikhaberlesme.com adresi üzerinden iletişime geçiniz.",
+    "x-logo": {
+      "url": "https://mail.organikhaberlesme.com/assets/img/user/company/37560d246d74f2ba72b3df256ee629e04.png"
+    },
+    "contact": {
+      "url": "https://organikhaberlesme.com/",
+      "email": "info@organikhaberlesme.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "api.organikhaberlesme.com",
+  "tags":[
+    {
+      "name": "GİRİŞ",
+      "description": "## API Hakkında\n\nORGANİK API ile ORGANİK HABERLEŞME Web arayüzünden gerçekleştirdiğiniz hemem hemen tüm işlemleri web arayüzüdne oturum açmadan gerçekleştirebilirsiniz.\n\n- API hizmetimizin `BASE_URL`'i `https://api.organikhaberlesme.com` şeklindedir.\n\nVEYOSİS API,gelişen ve değişen ihtiyaçlara göre güncellenir.Yapılan güncellemeler abonelerimize ilgili kanallardan duyurulacaktır.\n\n\nTüm metodların HTTP istek ve cevap mesajlarında `JSON` söz dizimi standardı kullanılmıştır.Güvenli API‘ lerin erişiminde HTTP Authorization protokolü takip edilmektedir.Bu doğrultuda Kimlik Yönetimi metotlarıyla alınan erişim jetonu(“access token”) kullanılarak İzin Yönetim metotlarıyla güvenli veri alışverişi sağlanmaktadır.\n\nORGANİK API ile ilgili tüm sorunlarınızı [Github](https://github.com/OrganikHaberlesme/Organik_API_DOCS/issues) üzerinden iletebilirsiniz.\n\n## TANIMLAR\n\nORGANİK API'sinde kullanılacak olan teknik terimler ve açıklamalar bu bölümde yer alacaktır. Güncellemeler oldukça bu bölümde ekleme ve çıkarmalar yapılacaktır."
+    }
+  ]
+}
